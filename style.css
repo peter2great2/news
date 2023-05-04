@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.2rem;
+  opacity: 0.7;
+}
+.navbar-brand {
+  position: relative;
+  right: 150px;
+}
+ul {
+  position: relative;
+  right: 10px;
+  width: 400px;
+}
+li {
+  margin-right: 15px;
+}
+.section-one {
+  padding: 20px;
+}
+.section-one .left h1 {
+  font-weight: 700;
+  font-size: 4rem;
+}
+.section-one p {
+  padding: 10px;
+  font-size: 20px;
+}
+.section-one h3 {
+  font-size: 20px;
+}
+button {
+  padding: 8px 10px;
+  margin-top: 35px;
+  background-color: hsl(5, 85%, 63%);
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  letter-spacing: 7px;
+  width: 200px;
+}
+
+.right {
+  height: 580px;
+}
+.right p {
+  font-size: 18px;
+}
+.right h2,
+p,
+h3 {
+  padding: 5px;
+}
+
+.section-two img {
+  width: auto;
+  height: 160px;
+}
+
+.section-two p {
+  font-size: small;
+}
+.section-two h3 {
+  font-size: small;
+}
+.section-two h4 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    position: relative;
+    left: 0;
+  }
+  ul {
+    padding: 10px;
+    position: relative;
+    left: 30px;
+    font-size: 2em;
+  }
+  a {
+    text-align: left;
+  }
+  .section-one .left h1 {
+    font-size: 2rem;
+  }
+  .section-one .left p {
+    font-size: 15px;
+  }
+  .section-two img {
+    width: auto;
+    margin: 10px 0;
+  }
+}
